@@ -12,10 +12,10 @@ To maintain privacy and security, the HaveIBeenPwned database API only accepts o
 The script will obfuscate and hash passwords before making a request with the API.
 
 Command:
-`code`python checkmypass.py <path_to_list_file>
+`python checkmypass.py <path_to_list_file>`
 
 An example command:
-`code`python checkmypass.py C:\Users\User\Desktop\passwords.txt
+`python checkmypass.py C:\Users\User\Desktop\passwords.txt`
 
 
 # Outputs
