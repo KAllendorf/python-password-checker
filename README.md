@@ -1,5 +1,6 @@
 # python-password-checker
-Checks passwords against the HaveIBeenPwned password database
+Checks passwords against the HaveIBeenPwned password database.
+Source code can be found in the source branch.
 
 
 # Usage
