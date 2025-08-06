@@ -4,8 +4,8 @@ Source code can be found in the source branch.
 
 
 # Usage
-This is a very simple script. You must run checkmypass.py with Python and pass an argument containing the path of a text file containing a list of passwords.
-The script will take that list and will check it against the HaveIBeenPwned password database.
+This is a very simple script. You must run checkmypass.exe in a command line interface and pass an argument containing the path of a text file containing a list of passwords.
+The script will take that list and check it against the HaveIBeenPwned password database.
 Passwords that are found in the database are deemed 'bad', while passwords that are not found are deemed 'good'.
 Good and bad passwords will be separated.
 
@@ -14,11 +14,14 @@ The script will obfuscate and hash passwords before making a request with the AP
 
 Command:
 `<path_to_checkmypass.exe> <path_to_list_file>`
-OR
+
+An example command with executable path:
+`C:\Users\User\Downloads\password_checker\dist\checkmypass.exe C:\Users\User\Desktop\passwords.txt`
+
 Add chechmypass.exe to OS PATH and run (not recommended)
 `checkmypass <path_to_list_file>`
 
-An example command:
+An example command with OS PATH Variable:
 `checkmypass.exe C:\Users\User\Desktop\passwords.txt`
 
 
